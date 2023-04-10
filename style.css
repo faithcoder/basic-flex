@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eee;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 0;
+    color: #666;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header ul li {
+    padding: 15px;
+}
+
+header ul li a {}
+
+.logo {
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+    color: #666;
+}
+
+.main {
+    display: flex;
+}
+
+aside {
+    flex: 0 0 20vw;
+    background-color: #ddd;
+}
+
+aside ul {
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+}
+
+aside ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #fff;
+}
+
+.article-area {
+    padding: 20px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.single-service {
+    flex-basis: 32%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+.read-more {
+    align-self: flex-start;
+    margin-top: auto;
+}
+
+.read-more a {
+    padding: 10px 20px;
+    background: #fff;
+    display: block;
+}
+
+.read-more a:hover {}
+
+.services-container .single-service .service-image img {
+    width: 100%;
+}
+
+footer {
+    background-color: #fff;
+    font-size: 16px;
+    padding: 20px 0;
+    text-align: center;
+}
